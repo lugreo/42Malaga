@@ -1,25 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   isalpha.c                                          :+:      :+:    :+:   */
+/*   memcpy.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rauosori <rauosori@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/11 13:26:43 by rauosori          #+#    #+#             */
-/*   Updated: 2024/04/21 18:27:29 by rauosori         ###   ########.fr       */
+/*   Created: 2024/04/21 18:32:03 by rauosori          #+#    #+#             */
+/*   Updated: 2024/04/21 18:34:54 by rauosori         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include "libft.h"
-
-int ft_isalpha(int a){
-	
-	if((a <= 'A' && a >= 'Z') || (a <= 'a' && a >= 'z')){
-		return 1;
-	}
-	return 0;
-
+void *memcpy(void *restrict dst, const void *src, size_t n){
+    
 }
-
-

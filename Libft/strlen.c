@@ -1,25 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   isalpha.c                                          :+:      :+:    :+:   */
+/*   strlen.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rauosori <rauosori@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/11 13:26:43 by rauosori          #+#    #+#             */
-/*   Updated: 2024/04/21 18:27:29 by rauosori         ###   ########.fr       */
+/*   Created: 2024/04/21 17:32:10 by rauosori          #+#    #+#             */
+/*   Updated: 2024/04/21 18:27:18 by rauosori         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include "libft.h"
 
-int ft_isalpha(int a){
-	
-	if((a <= 'A' && a >= 'Z') || (a <= 'a' && a >= 'z')){
-		return 1;
-	}
-	return 0;
+int ft_strline(char *str){
+
+    int t;
+    t = 0;
+
+    while(*str != '/0'){
+        str++;
+        t++;
+    }
+        return t;
 
 }
-
-
